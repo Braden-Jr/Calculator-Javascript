@@ -1,0 +1,31 @@
+body{
+    background-color: black;
+}
+.screen-con{
+    height: 100px;
+    background-color:rgb(233, 233, 233);
+    
+}
+.content-n{
+    font-weight: 800;
+    background-color: gray;
+    text-align: center;
+    height: 50px;
+}
+.content{
+    text-align: center;
+    font-weight: 800;
+    background-color: rgb(32, 28, 28);
+}
+.content-sign{
+    font-weight: 800;
+    text-align: center;
+    height: 50px;
+    background-color: orange;
+}
+#topbtn{
+    color: rgb(219, 219, 219);
+}
+.graytop{
+    border-radius: 10px;
+}
