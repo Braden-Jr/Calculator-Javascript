@@ -59,14 +59,16 @@
   <script>
           var temp="";
           function compute(char){
-              if(char=="del"){
-                  temp = temp.slice(0,-1);
-                  document.getElementById("screen").innerHTML=temp;
-              }
-              else if(char=="C"){
+            if(char=="C"){
                   temp="";
                   document.getElementById("screen").innerHTML=temp;
               }
+
+             else if(char=="backspace"){
+                  temp = temp.slice(0,-1);
+                  document.getElementById("screen").innerHTML=temp;
+              }
+            
               else if(char=="="){
                   document.getElementById("screen").innerHTML= eval(temp);
                   temp = eval(temp); 
